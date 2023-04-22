@@ -8,7 +8,7 @@
 // Trie node definition
 struct Trie {
     struct Trie* children[ALPHABET_SIZE];
-    int count;
+    int count;s
 };
 
 // Initialize a new trie node
@@ -95,5 +95,5 @@ int main(void) {
         printf("There is an error in this program\n");
     }
     return 0;
-}
+} 
 
